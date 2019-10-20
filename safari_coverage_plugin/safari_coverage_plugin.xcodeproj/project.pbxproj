@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF025375235BB480008AE4F6 /* safari_coverage_plugin.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = FF025374235BB480008AE4F6 /* safari_coverage_plugin.entitlements */; };
+		FF025378235BB480008AE4F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF025377235BB480008AE4F6 /* AppDelegate.m */; };
+		FF02537B235BB480008AE4F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF025379235BB480008AE4F6 /* Main.storyboard */; };
+		FF02537E235BB480008AE4F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF02537D235BB480008AE4F6 /* ViewController.m */; };
+		FF025380235BB482008AE4F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF02537F235BB482008AE4F6 /* Assets.xcassets */; };
+		FF025383235BB482008AE4F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF025382235BB482008AE4F6 /* main.m */; };
+		FF02538D235BB482008AE4F6 /* safari_coverage_pluginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF02538C235BB482008AE4F6 /* safari_coverage_pluginTests.m */; };
+		FF025398235BB482008AE4F6 /* safari_coverage_pluginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF025397235BB482008AE4F6 /* safari_coverage_pluginUITests.m */; };
+		FF02539F235BB482008AE4F6 /* safari_coverage_plugin Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF02539E235BB482008AE4F6 /* safari_coverage_plugin Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF0253A4235BB482008AE4F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0253A3235BB482008AE4F6 /* Cocoa.framework */; };
+		FF0253A8235BB482008AE4F6 /* SafariExtensionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0253A7235BB482008AE4F6 /* SafariExtensionHandler.m */; };
+		FF0253AB235BB482008AE4F6 /* SafariExtensionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0253AA235BB482008AE4F6 /* SafariExtensionViewController.m */; };
+		FF0253AE235BB482008AE4F6 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF0253AC235BB482008AE4F6 /* SafariExtensionViewController.xib */; };
+		FF0253B1235BB482008AE4F6 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = FF0253B0235BB482008AE4F6 /* script.js */; };
+		FF0253B3235BB482008AE4F6 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FF0253B2235BB482008AE4F6 /* ToolbarItemIcon.pdf */; };
+		FF0253C5235BC83C008AE4F6 /* dynamic_execution.js in Resources */ = {isa = PBXBuildFile; fileRef = FF0253C4235BC83C008AE4F6 /* dynamic_execution.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF025389235BB482008AE4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF025369235BB480008AE4F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF025370235BB480008AE4F6;
+			remoteInfo = safari_coverage_plugin;
+		};
+		FF025394235BB482008AE4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF025369235BB480008AE4F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF025370235BB480008AE4F6;
+			remoteInfo = safari_coverage_plugin;
+		};
+		FF0253A0235BB482008AE4F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF025369235BB480008AE4F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF02539D235BB482008AE4F6;
+			remoteInfo = "safari_coverage_plugin Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF0253BA235BB482008AE4F6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF02539F235BB482008AE4F6 /* safari_coverage_plugin Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF025371235BB480008AE4F6 /* safari_coverage_plugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = safari_coverage_plugin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF025374235BB480008AE4F6 /* safari_coverage_plugin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_coverage_plugin.entitlements; sourceTree = "<group>"; };
+		FF025376235BB480008AE4F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF025377235BB480008AE4F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF02537A235BB480008AE4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF02537C235BB480008AE4F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF02537D235BB480008AE4F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF02537F235BB482008AE4F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF025381235BB482008AE4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF025382235BB482008AE4F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF025388235BB482008AE4F6 /* safari_coverage_pluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = safari_coverage_pluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF02538C235BB482008AE4F6 /* safari_coverage_pluginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safari_coverage_pluginTests.m; sourceTree = "<group>"; };
+		FF02538E235BB482008AE4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF025393235BB482008AE4F6 /* safari_coverage_pluginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = safari_coverage_pluginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF025397235BB482008AE4F6 /* safari_coverage_pluginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safari_coverage_pluginUITests.m; sourceTree = "<group>"; };
+		FF025399235BB482008AE4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF02539E235BB482008AE4F6 /* safari_coverage_plugin Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "safari_coverage_plugin Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0253A3235BB482008AE4F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FF0253A6235BB482008AE4F6 /* SafariExtensionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionHandler.h; sourceTree = "<group>"; };
+		FF0253A7235BB482008AE4F6 /* SafariExtensionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionHandler.m; sourceTree = "<group>"; };
+		FF0253A9235BB482008AE4F6 /* SafariExtensionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafariExtensionViewController.h; sourceTree = "<group>"; };
+		FF0253AA235BB482008AE4F6 /* SafariExtensionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafariExtensionViewController.m; sourceTree = "<group>"; };
+		FF0253AD235BB482008AE4F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		FF0253AF235BB482008AE4F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0253B0235BB482008AE4F6 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		FF0253B2235BB482008AE4F6 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		FF0253B4235BB482008AE4F6 /* safari_coverage_plugin_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = safari_coverage_plugin_Extension.entitlements; sourceTree = "<group>"; };
+		FF0253C4235BC83C008AE4F6 /* dynamic_execution.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = dynamic_execution.js; sourceTree = "<group>"; };
+		FF0253C6235BCE6B008AE4F6 /* safari_coverage_plugin Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "safari_coverage_plugin Extension.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF02536E235BB480008AE4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF025385235BB482008AE4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF025390235BB482008AE4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF02539B235BB482008AE4F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0253A4235BB482008AE4F6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF025368235BB480008AE4F6 = {
+			isa = PBXGroup;
+			children = (
+				FF025373235BB480008AE4F6 /* safari_coverage_plugin */,
+				FF02538B235BB482008AE4F6 /* safari_coverage_pluginTests */,
+				FF025396235BB482008AE4F6 /* safari_coverage_pluginUITests */,
+				FF0253A5235BB482008AE4F6 /* safari_coverage_plugin Extension */,
+				FF0253A2235BB482008AE4F6 /* Frameworks */,
+				FF025372235BB480008AE4F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF025372235BB480008AE4F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF025371235BB480008AE4F6 /* safari_coverage_plugin.app */,
+				FF025388235BB482008AE4F6 /* safari_coverage_pluginTests.xctest */,
+				FF025393235BB482008AE4F6 /* safari_coverage_pluginUITests.xctest */,
+				FF02539E235BB482008AE4F6 /* safari_coverage_plugin Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF025373235BB480008AE4F6 /* safari_coverage_plugin */ = {
+			isa = PBXGroup;
+			children = (
+				FF025374235BB480008AE4F6 /* safari_coverage_plugin.entitlements */,
+				FF025376235BB480008AE4F6 /* AppDelegate.h */,
+				FF025377235BB480008AE4F6 /* AppDelegate.m */,
+				FF025379235BB480008AE4F6 /* Main.storyboard */,
+				FF02537C235BB480008AE4F6 /* ViewController.h */,
+				FF02537D235BB480008AE4F6 /* ViewController.m */,
+				FF02537F235BB482008AE4F6 /* Assets.xcassets */,
+				FF025381235BB482008AE4F6 /* Info.plist */,
+				FF025382235BB482008AE4F6 /* main.m */,
+			);
+			path = safari_coverage_plugin;
+			sourceTree = "<group>";
+		};
+		FF02538B235BB482008AE4F6 /* safari_coverage_pluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF02538C235BB482008AE4F6 /* safari_coverage_pluginTests.m */,
+				FF02538E235BB482008AE4F6 /* Info.plist */,
+			);
+			path = safari_coverage_pluginTests;
+			sourceTree = "<group>";
+		};
+		FF025396235BB482008AE4F6 /* safari_coverage_pluginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF025397235BB482008AE4F6 /* safari_coverage_pluginUITests.m */,
+				FF025399235BB482008AE4F6 /* Info.plist */,
+			);
+			path = safari_coverage_pluginUITests;
+			sourceTree = "<group>";
+		};
+		FF0253A2235BB482008AE4F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0253A3235BB482008AE4F6 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF0253A5235BB482008AE4F6 /* safari_coverage_plugin Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF0253C6235BCE6B008AE4F6 /* safari_coverage_plugin Extension.entitlements */,
+				FF0253A6235BB482008AE4F6 /* SafariExtensionHandler.h */,
+				FF0253A7235BB482008AE4F6 /* SafariExtensionHandler.m */,
+				FF0253A9235BB482008AE4F6 /* SafariExtensionViewController.h */,
+				FF0253AA235BB482008AE4F6 /* SafariExtensionViewController.m */,
+				FF0253AC235BB482008AE4F6 /* SafariExtensionViewController.xib */,
+				FF0253AF235BB482008AE4F6 /* Info.plist */,
+				FF0253B0235BB482008AE4F6 /* script.js */,
+				FF0253C4235BC83C008AE4F6 /* dynamic_execution.js */,
+				FF0253B2235BB482008AE4F6 /* ToolbarItemIcon.pdf */,
+				FF0253B4235BB482008AE4F6 /* safari_coverage_plugin_Extension.entitlements */,
+			);
+			path = "safari_coverage_plugin Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF025370235BB480008AE4F6 /* safari_coverage_plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0253BB235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_plugin" */;
+			buildPhases = (
+				FF02536D235BB480008AE4F6 /* Sources */,
+				FF02536E235BB480008AE4F6 /* Frameworks */,
+				FF02536F235BB480008AE4F6 /* Resources */,
+				FF0253BA235BB482008AE4F6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0253A1235BB482008AE4F6 /* PBXTargetDependency */,
+			);
+			name = safari_coverage_plugin;
+			productName = safari_coverage_plugin;
+			productReference = FF025371235BB480008AE4F6 /* safari_coverage_plugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF025387235BB482008AE4F6 /* safari_coverage_pluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0253BE235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_pluginTests" */;
+			buildPhases = (
+				FF025384235BB482008AE4F6 /* Sources */,
+				FF025385235BB482008AE4F6 /* Frameworks */,
+				FF025386235BB482008AE4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF02538A235BB482008AE4F6 /* PBXTargetDependency */,
+			);
+			name = safari_coverage_pluginTests;
+			productName = safari_coverage_pluginTests;
+			productReference = FF025388235BB482008AE4F6 /* safari_coverage_pluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF025392235BB482008AE4F6 /* safari_coverage_pluginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0253C1235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_pluginUITests" */;
+			buildPhases = (
+				FF02538F235BB482008AE4F6 /* Sources */,
+				FF025390235BB482008AE4F6 /* Frameworks */,
+				FF025391235BB482008AE4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF025395235BB482008AE4F6 /* PBXTargetDependency */,
+			);
+			name = safari_coverage_pluginUITests;
+			productName = safari_coverage_pluginUITests;
+			productReference = FF025393235BB482008AE4F6 /* safari_coverage_pluginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FF02539D235BB482008AE4F6 /* safari_coverage_plugin Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0253B7235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_plugin Extension" */;
+			buildPhases = (
+				FF02539A235BB482008AE4F6 /* Sources */,
+				FF02539B235BB482008AE4F6 /* Frameworks */,
+				FF02539C235BB482008AE4F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "safari_coverage_plugin Extension";
+			productName = "safari_coverage_plugin Extension";
+			productReference = FF02539E235BB482008AE4F6 /* safari_coverage_plugin Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF025369235BB480008AE4F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = gopiballava;
+				TargetAttributes = {
+					FF025370235BB480008AE4F6 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					FF025387235BB482008AE4F6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FF025370235BB480008AE4F6;
+					};
+					FF025392235BB482008AE4F6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FF025370235BB480008AE4F6;
+					};
+					FF02539D235BB482008AE4F6 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FF02536C235BB480008AE4F6 /* Build configuration list for PBXProject "safari_coverage_plugin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF025368235BB480008AE4F6;
+			productRefGroup = FF025372235BB480008AE4F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF025370235BB480008AE4F6 /* safari_coverage_plugin */,
+				FF025387235BB482008AE4F6 /* safari_coverage_pluginTests */,
+				FF025392235BB482008AE4F6 /* safari_coverage_pluginUITests */,
+				FF02539D235BB482008AE4F6 /* safari_coverage_plugin Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF02536F235BB480008AE4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF025375235BB480008AE4F6 /* safari_coverage_plugin.entitlements in Resources */,
+				FF025380235BB482008AE4F6 /* Assets.xcassets in Resources */,
+				FF02537B235BB480008AE4F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF025386235BB482008AE4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF025391235BB482008AE4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF02539C235BB482008AE4F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0253B3235BB482008AE4F6 /* ToolbarItemIcon.pdf in Resources */,
+				FF0253AE235BB482008AE4F6 /* SafariExtensionViewController.xib in Resources */,
+				FF0253B1235BB482008AE4F6 /* script.js in Resources */,
+				FF0253C5235BC83C008AE4F6 /* dynamic_execution.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF02536D235BB480008AE4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF02537E235BB480008AE4F6 /* ViewController.m in Sources */,
+				FF025383235BB482008AE4F6 /* main.m in Sources */,
+				FF025378235BB480008AE4F6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF025384235BB482008AE4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF02538D235BB482008AE4F6 /* safari_coverage_pluginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF02538F235BB482008AE4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF025398235BB482008AE4F6 /* safari_coverage_pluginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF02539A235BB482008AE4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0253AB235BB482008AE4F6 /* SafariExtensionViewController.m in Sources */,
+				FF0253A8235BB482008AE4F6 /* SafariExtensionHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF02538A235BB482008AE4F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF025370235BB480008AE4F6 /* safari_coverage_plugin */;
+			targetProxy = FF025389235BB482008AE4F6 /* PBXContainerItemProxy */;
+		};
+		FF025395235BB482008AE4F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF025370235BB480008AE4F6 /* safari_coverage_plugin */;
+			targetProxy = FF025394235BB482008AE4F6 /* PBXContainerItemProxy */;
+		};
+		FF0253A1235BB482008AE4F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF02539D235BB482008AE4F6 /* safari_coverage_plugin Extension */;
+			targetProxy = FF0253A0235BB482008AE4F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF025379235BB480008AE4F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF02537A235BB480008AE4F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF0253AC235BB482008AE4F6 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF0253AD235BB482008AE4F6 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF0253B5235BB482008AE4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FF0253B6235BB482008AE4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF0253B8235BB482008AE4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "safari_coverage_plugin Extension/safari_coverage_plugin Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = "safari_coverage_plugin Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-plugin-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF0253B9235BB482008AE4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "safari_coverage_plugin Extension/safari_coverage_plugin Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = "safari_coverage_plugin Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-plugin-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FF0253BC235BB482008AE4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = safari_coverage_plugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF0253BD235BB482008AE4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = safari_coverage_plugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF0253BF235BB482008AE4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = safari_coverage_pluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-pluginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/safari_coverage_plugin.app/Contents/MacOS/safari_coverage_plugin";
+			};
+			name = Debug;
+		};
+		FF0253C0235BB482008AE4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = safari_coverage_pluginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-pluginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/safari_coverage_plugin.app/Contents/MacOS/safari_coverage_plugin";
+			};
+			name = Release;
+		};
+		FF0253C2235BB482008AE4F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = safari_coverage_pluginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-pluginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = safari_coverage_plugin;
+			};
+			name = Debug;
+		};
+		FF0253C3235BB482008AE4F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 599KAFA8C6;
+				INFOPLIST_FILE = safari_coverage_pluginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ninja.flaherty.mac.safari-coverage-pluginUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = safari_coverage_plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF02536C235BB480008AE4F6 /* Build configuration list for PBXProject "safari_coverage_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0253B5235BB482008AE4F6 /* Debug */,
+				FF0253B6235BB482008AE4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0253B7235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_plugin Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0253B8235BB482008AE4F6 /* Debug */,
+				FF0253B9235BB482008AE4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0253BB235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0253BC235BB482008AE4F6 /* Debug */,
+				FF0253BD235BB482008AE4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0253BE235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_pluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0253BF235BB482008AE4F6 /* Debug */,
+				FF0253C0235BB482008AE4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0253C1235BB482008AE4F6 /* Build configuration list for PBXNativeTarget "safari_coverage_pluginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0253C2235BB482008AE4F6 /* Debug */,
+				FF0253C3235BB482008AE4F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF025369235BB480008AE4F6 /* Project object */;
+}
