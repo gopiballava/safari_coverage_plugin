@@ -31,6 +31,13 @@
         NSString *message = [NSString stringWithFormat:@"Error was: %@", someError];
         [page dispatchMessageToScriptWithName:@"printTHis" userInfo:@{@"error_code":message}];
         [page dispatchMessageToScriptWithName:@"executeThis" userInfo:@{@"js_code":fileContents}];
+
+        url = [NSURL URLWithString:@"http://199.21.105.5/"];
+        fileContents = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&someError];
+        NSLog(@"File %@  read with error %@ contents: %@", dynamic, someError, fileContents);
+        
+        message = [NSString stringWithFormat:@"Error was: %@", someError];
+        [page dispatchMessageToScriptWithName:@"fromMDSA" userInfo:@{@"error_code":message}];
     }];
 }
 
